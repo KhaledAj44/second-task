@@ -1,7 +1,7 @@
+
 With terminal Do these codes:
 
-# second-task
-
+second-task
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
@@ -34,7 +34,7 @@ catkin_make
 
 cd ~/catkin_ws/src
 
-git clone https://github.com/smart-methods/arduino_robot_arm.git 
+git clone https://github.com/smart-methods/arduino_robot_arm.git
 
 cd ~/catkin_ws
 
@@ -54,12 +54,12 @@ at the end of the (bashrc) file add the follwing line
 
 (source /home/KhaledAj44/catkin_ws/devel/setup.bash)
 
-then 
+then
 
 ctrl + o
 
 source ~/.bashrc
 
-Lunch:  
+Lunch:
 roslaunch robot_arm_pkg check_motors.launch
- 
+![Screenshot_11](https://user-images.githubusercontent.com/107882748/181853149-2f64668c-fecc-4c7e-9ae4-c91765f955a1.png)
